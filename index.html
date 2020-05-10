@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axos.min.js'></script>
+  </head>
+
+  <script>
+    axios.get(url).then ((result) => {
+      content = result;
+      content.filter(function(element){
+        element.category =="N1";
+      })
+    })
+    window.onload = () => {
+      document.getElementById("dessert").innerHTML = "Dessert: Schnitzelsorbet"
+    }
+    
+  </script>
+  <body>
+    <h1>Mensa</h1>
+    
+    <select name= "Wochentag" id="select">
+      <option>Montag</option>
+      <option>Dienstag</option>
+      <option>Mittwoch</option>
+      <option>Donnerstag</option>
+      <option>Freitag</option>
+    </select>
+ 
+    <br>
+
+
+    <table>
+      <tr>category</tr>
+      <tr>day</tr>
+      <tr>cost</tr>
+      <tr>contentInformation</tr>
+      <tr>downvotes</tr>
+      <tr>id</tr>
+      <tr>labels</tr>
+      <tr>name</tr>
+      <tr>upvotes</tr>
+      
+    </table>
+    
+  </body>
+</html>

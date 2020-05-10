@@ -1,0 +1,24 @@
+{
+  "name": "2020ss_frontend2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marius220699/2020ss_Frontend2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marius220699/2020ss_Frontend2.0/issues"
+  },
+  "homepage": "https://github.com/marius220699/2020ss_Frontend2.0#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "latest": "^0.2.0"
+  }
+}
